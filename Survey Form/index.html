@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <title>Cellphone Brand Preference Survey</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Cellphone Brand Preference Survey</h1>
+    <p id="description">What's your top pick?</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" required placeholder="Enter your name"/></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" required placeholder="Enter your email"/></label>
+        <label id="age-label" for="age">Age (optional) <input id="age" type="number" placeholder="Enter your age"/></label>
+      </fieldset> 
+      <fieldset>
+        <label for="dropdown">Which company phone do you use?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Apple</option>
+            <option value="2">Samsung</option>
+            <option value="3">Xiaomi</option>
+            <option value="4">Oppo</option>
+            <option value="5">Vivo</option>
+            <option value="6">Nokia</option>
+            <option value="7">Motorola</option>
+            <option value="8">Other</option>
+          </select>
+        </label>  
+        <label for="dropdown">Which company phone would you have other than current phone?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Apple</option>
+            <option value="2">Samsung</option>
+            <option value="3">Xiaomi</option>
+            <option value="4">Oppo</option>
+            <option value="5">Vivo</option>
+            <option value="6">Nokia</option>
+            <option value="7">Motorola</option>
+            <option value="8">Other</option>
+          </select>
+        </label>     
+     </fieldset>
+     <fieldset>
+       <legend>How is the cellphone usage experience?</legend>
+       <label><input type="radio" name="experience" class="inline" value="better" checked/>Better than expected</label>
+       <label><input type="radio" name="experience" class="inline" value="same"/>Same as expected</label>
+       <label><input type="radio" name="experience" class="inline" value="worse"/>Worse than expected</label>
+     </fieldset>
+     <fieldset>
+       <legend>Which of the following features would you like to improve in your cellphone?</legend>
+      <label><input type="checkbox" name="feature" value="long-battery-life" class="inline"> Long Battery Life</label>
+      <label><input type="checkbox" name="feature" value="fast-charging" class="inline"> Fast Charging</label>
+      <label><input type="checkbox" name="feature" value="great-camera" class="inline"> Great Camera</label>
+    </fieldset>
+     <fieldset>
+       <label id="number-label" for="number">Rate your cellphone(1-10):<input id="number" type="number" name="rate" min="1" max="10" placeholder="enter no. between 1-10"/></label>
+       <label for="comment">Other comment:<textarea id="comment" name="comment" placeholder="I like the phone I have..." rows="3" cols="30"></textarea></label>
+     </fieldset>
+
+     <input type="submit" id="submit" value="Submit"></input>  
+    </form>
+  </body>
+</html>
