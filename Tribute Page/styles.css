@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:#6F8FAF;
+    margin:0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  h1{
+    font-family:fantasy;
+    text-align:center;
+    margin:0;
+  }
+  
+  .description{
+    text-align:center;
+    font-size:14px;
+  }
+  
+  header{
+    background-color:#6F8FAF;
+    padding-top:3px;
+    padding-bottom:2px;
+    align-items:center;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 1600px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: #ccccff;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0 ,0 ,0 , 0.1);
+    padding: 20px;
+  }
+  .vettelimg{
+    border-radius:10px;
+    display:block;
+    margin:0 auto;
+    max-width:100%;
+  }
+  
+  #main {
+    width: 80%;
+    max-width: 1600px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding: 20px;
+  } 
+  
+  #tribute-link{
+    text-align:center;
+    margin-top:20px;
+  }
+  
+  #tribute-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #tribute-link a:hover {
+    text-decoration: underline;
+  }
+  
+  #tribute-link label {
+    font-size: 18px;
+  }
+  
+  #tribute-link label:hover {
+    cursor: pointer;
+  }
+  
+  #img-caption {
+    font-style: italic;
+    text-align:center;
+  }
+  form label {
+    font-size: 18px;
+  }
+  
